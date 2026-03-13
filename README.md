@@ -21,37 +21,37 @@ This project analyzes a dataset of 19,838 records sourced from the data.gov, cov
 
 ### U.S. Total Food Import Value (1999–2024)
 
-![Total Import](images/total_import.png)
+![Total Import](US-Food-Import-Analysis/images/total_import.png)
 
 ---
 
 ### Import Value by Country
 
-![Import by Country](images/import_by_country.png)
+![Import by Country](US-Food-Import-Analysis/images/import_by_country.png)
 
 ---
 
 ### Top 5 Countries
 
-![Top 5 Countries](images/top5_countries.png)
+![Top 5 Countries](US-Food-Import-Analysis/images/top5_countries.png)
 
 ---
 
 ### Category Composition (Stacked Area)
 
-![Category Stacked](images/category_stacked_area.png)
+![Category Stacked](US-Food-Import-Analysis/images/category_stacked_area.png)
 
 ---
 
 ### Country Specialization
 
-![Country Specialization](images/country_specialization.png)
+![Country Specialization](US-Food-Import-Analysis/images/country_specialization.png)
 
 ---
 
 ### Category Comparison (1999 vs 2024)
 
-![Category Comparison](images/category_1999_vs_2024.png)
+![Category Comparison](US-Food-Import-Analysis/images/category_1999_vs_2024.png)
 
 ## Dataset
 - Source: Data.gov
