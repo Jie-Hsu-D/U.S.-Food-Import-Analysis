@@ -18,17 +18,41 @@ This project analyzes a dataset of 19,838 records sourced from the data.gov, cov
 - Jupyter Notebook
 
 ## Sample Visualizations
-![U.S. Total Food Import Value (1999–2024)d](US-Food-Import-Analysis/U.S._Total_Food_Import_Value_(1999–2024).png)
-| U.S. Total Food Import Value (1999–2024) | Overall import trend with key economic event annotations |
-![U.S. Food Import Value by Countries (1999–2024)d](US-Food-Import-Analysis/U.S._Food_Import_Value_by_Countries_(1999–2024).png)
-| U.S. Food Import Value by Countries (1999–2024)| Time-series comparison of top 20 source countries |
-![U.S. Food Import Value by Top5 Countries (1999–2024)d](US-Food-Import-Analysis/U.S._Food_Import_Value_by_Top5_Countries_(1999–2024).png)
-| Food Import Composition by Category — Top 5 Countries | Grouped bar chart comparing top 5 countries across categories |
-![U.S. Food Imports by Category — Stacked Area (1999–2024)d](US-Food-Import-Analysis/U.S._Food_Imports_by_Category_—_Stacked_Area_(1999–2024).png)
-| U.S. Food Imports by Category — Stacked Area | Category composition change over time |
-![Each Countrys Import Specialisation by Category (All Years)d](US-Food-Import-Analysis/Each_Country's_Import_Specialisation_by_Category_(All_Years).png)
-| Each Country's Import Specialisation by Category | Heatmap showing each country's category concentration |
-![Food Import Value by Category (1999 vs 2024)d](US-Food-Import-Analysis/Food_Import_Value_by_Category_(1999_vs_2024).png)
+## Sample Visualizations
+
+### U.S. Total Food Import Value (1999–2024)
+
+![Total Import](images/total_import.png)
+
+---
+
+### Import Value by Country
+
+![Import by Country](images/import_by_country.png)
+
+---
+
+### Top 5 Countries
+
+![Top 5 Countries](images/top5_countries.png)
+
+---
+
+### Category Composition (Stacked Area)
+
+![Category Stacked](images/category_stacked_area.png)
+
+---
+
+### Country Specialization
+
+![Country Specialization](images/country_specialization.png)
+
+---
+
+### Category Comparison (1999 vs 2024)
+
+![Category Comparison](images/category_1999_vs_2024.png)
 
 ## Dataset
 - Source: Data.gov
@@ -37,10 +61,19 @@ This project analyzes a dataset of 19,838 records sourced from the data.gov, cov
 - Unit: Million USD
 
 ## Project Structure
+```
 US-Food-Import-Analysis/
 ├── US_Food_Import_Analysis.ipynb  
-├── images/                        
+├── images/
+│   ├── category_1999_vs_2024.png
+│   ├── category_stacked_area.png
+│   ├── country_specialization.png
+│   ├── import_by_country.png
+│   ├── top5_countries.png
+│   ├── top5_countries_2.png
+│   └── total_import.png
 └── README.md
+```
 
 ## How to Run
 1. Clone the repository
